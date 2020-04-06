@@ -1,14 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Issue Tracker</h1>
-      </header>
-    </div>
+    <header>
+      <nav>
+        <h1><a href="/">Issue Tracker</a></h1>
+        <ul>
+          <li><a href="/account">Account</a></li>
+          <li><a href="/logout">Logout</a></li>
+          <li><a href="/create">Create Guide</a></li>
+          <li><a href="/login">Login</a></li>
+          <li><a href="/signup">Sign up</a></li>
+        </ul>
+      </nav>      
+    </header>
   );
 }
 
