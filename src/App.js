@@ -9,7 +9,7 @@ function App() {
         <ul>
           <li><a href="/account">Account</a></li>
           <li><a href="/logout">Logout</a></li>
-          <li><a href="/create">Create Guide</a></li>
+          <li><a href="/create">New Issue</a></li>
           <li><a href="/login">Login</a></li>
           <li><a href="/signup">Sign up</a></li>
         </ul>

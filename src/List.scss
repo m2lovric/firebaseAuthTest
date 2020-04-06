@@ -12,9 +12,12 @@ section{
       background-color: #aaa;
     }
     .description{
+      display: none;      
+    }
+    .visible{
       background-color: #eee;
       padding: 10px 30px;
-      display: none;
+      display: block;
     }
   }
 }

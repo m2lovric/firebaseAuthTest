@@ -10,12 +10,13 @@ class List extends React.Component {
     const li = document.querySelectorAll('.liIssue');
     li.forEach( el => {
       el.addEventListener('click', e => {
-        let child = e.path[1].lastChild;
-        if(child.style.display === 'none'){
-          child.style.display = 'block';
-        }else{
-          child.style.display = 'none';
-        }
+        e.path[1].lastChild.classList.toggle("visible")
+        // let child = e.path[1].lastChild;
+        // if(child.style.display === 'none'){
+        //   child.style.display = 'block';
+        // }else{
+        //   child.style.di = 'none';
+        // }
       })
     })
   }
