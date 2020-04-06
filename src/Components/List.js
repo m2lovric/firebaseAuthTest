@@ -2,9 +2,6 @@ import React from 'react';
 import '../List.scss';
 
 class List extends React.Component {
-  constructor(){
-    super();
-  }
 
   componentDidMount(){
     const li = document.querySelectorAll('.liIssue');

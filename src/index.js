@@ -7,6 +7,7 @@ import Account from './Components/Account';
 import Signup from './Components/Signup';
 import Create from './Components/Create';
 import List from './Components/List';
+import './firebase';
 
 const routes = (
   <BrowserRouter>
